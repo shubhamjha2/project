@@ -1,0 +1,98 @@
+.contact-container {
+  position: relative; /* Set position relative to contain the blurred background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.button {
+  background-color: #27d82f;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid #5c5c5c;
+  font-size: 16px;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blur-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/FRK9G3wS/istockphoto-1392260054-612x612.jpg');
+  background-size: cover;
+  filter: blur(5px); /* Apply the blur effect to the background image */
+  z-index: -1; /* Move the blurred background behind other elements */
+}
+
+.heading {
+  font-size: 35px;
+  color: #333;
+  margin-bottom: 40px;
+  border-bottom: 2px solid;
+  margin-top: 0;
+}
+
+.contact-form {
+  background-color: #ffeda8;
+  padding: 2%;
+  border-radius: 25px;
+  filter: drop-shadow(2px 4px 6px black);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  color: #666;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 97%;
+  background: #fff5d0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff5d0;
+  color: #333;
+  transition: border-color 0.3s ease;
+  resize: vertical;
+}
+
+.textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+
+
+

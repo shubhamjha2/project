@@ -44,10 +44,8 @@ export default function Footer() {
 
 export function Copyright() {
   return (
-    <>
-      <p className="copyright">
-        &copy; 2023 Firmking Food Products Pvt. Ltd. All Rights Reserved.
-      </p>
-    </>
+    <p className="copyright">
+      &copy; 2023 Firmking Food Products Pvt. Ltd. All Rights Reserved.
+    </p>
   );
 }

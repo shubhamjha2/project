@@ -1,0 +1,268 @@
+@font-face {
+  font-family: paint;
+  src: url(../../../public/fonts/Painting_With_Chocolate.ttf);
+}
+
+.home_root {
+  display: flex;
+  justify-content: center;
+  background: black;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+}
+
+.home_bg1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg_pan_img {
+  width: 100%;
+  height: auto;
+  filter: brightness(0.5);
+}
+
+.overlay_image {
+  position: absolute;
+  bottom: 104px;
+  left: 228px;
+  width: 30%;
+  height: 54%;
+  z-index: 1;
+}
+
+.overlay_image1 {
+  position: absolute;
+  bottom: 28%;
+  left: 10px;
+  width: 10%;
+  height: 22%;
+  z-index: 1;
+}
+
+.overlay_image2 {
+  position: absolute;
+  bottom: -102px;
+  transform: rotate(277deg);
+  left: 34%;
+  width: 22%;
+  height: 44%;
+  z-index: 1;
+}
+
+.overlay_image3 {
+  position: absolute;
+  bottom: -60px;
+  left: 4%;
+  width: 10%;
+  height: 20%;
+  z-index: 1;
+}
+
+.overlay_image4 {
+  position: absolute;
+  top: -68px;
+  left: 53%;
+  /* transform: rotate(180deg); */
+  width: 37%;
+  height: 38%;
+  z-index: 1;
+}
+
+.overlay_text {
+  position: absolute;
+  font-weight: 100;
+  top: 54%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
+  text-transform: uppercase;
+  line-height: 0.9;
+  font-family: paint;
+  font-style: italic;
+  z-index: 2;
+}
+
+
+/* firminfo */
+.indiabesyt {
+  display: flex;
+  padding-top: 22px;
+  background: radial-gradient(30% 82% at -5% 50%, #d90e0e -0.99%, #d90e0e -1.98%, rgb(0 0 0 / 15%) 100%), radial-gradient(30% 106% at 103% 50%, #d90e0e -0.99%, #d90e0e -0.98%, rgb(0 0 0 / 48%) 100%),repeating-linear-gradient(-45deg, #0a0909 0, #211919 25%, black 0, black 38%) 0 / 20px 20px;
+  flex-direction: column;
+  border-top: 3px double white;
+}
+.firminfo {
+  display: flex;
+  color: white;
+  font-size: 10px;
+  /* background: repeating-linear-gradient(-45deg, #0a0909 0, #211919 25%, black 0, black 38%) 0 / 20px 20px; */
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.firminfo .left-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.firminfo .left-section img {
+  width: 79%;
+  margin-left: 42px;
+}
+.firminfo .right-section {
+  flex: 2 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .firminfo .right-section {
+  flex: 2;
+} */
+.firminfo h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-family: paint;
+  font-weight: 10;
+  font-style: italic;
+}
+
+.firminfo p {
+  font-size: 16px;
+  margin-left: 30px;
+  color: white;
+  margin-top: 10px;
+}
+
+.firminfo .firminfo-info {
+  border: 3px double white;
+  display: flex;
+  border-radius: 100px;
+  background: #d90e0e;
+  padding: 30px;
+  margin: 20px;
+  color: white;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+
+.firminfo .firminfo-info h3 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+
+.firminfo .firminfo-info a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #1b1f23;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.align_center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .overlay_image {
+    position: absolute;
+    bottom: 71px;
+    left: 162px;
+    width: 30%;
+    height: 54%;
+    z-index: 1;
+  }
+
+  .overlay_text {
+    position: absolute;
+    font-weight: 100;
+    top: 52%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 81px;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-family: paint;
+    font-style: italic;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .firminfo {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .firminfo .left-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .firminfo .right-section {
+    flex: 1;
+  }
+
+  .firminfo .firminfo-info h3 {
+    font-size: 20px;
+    margin-left: 50px;
+}
+}
+
+
+
+
+
+
+.certificate {
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  /* margin-top: 70px; */
+}
+
+h1.cofq {
+  color: white;
+  font-family: 'paint';
+  font-weight: 100;
+  font-size: 50px;
+}
+
+img.logobox {
+  background: white;
+  border: 2px solid;
+  border-radius: 31px;
+  margin: 12px;
+  width: 10%;
+}
