@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./navbar.css";
 import logo from "./firmking-low-resolution-logo-black-on-transparent-background.png";
 
@@ -8,27 +7,27 @@ export default function Navbar() {
     <nav className="navigation">
       <ul className="navbar">
         <li className="LOGOFLX">
-          <Link to="/">
+          <a href="#">
             <img className="logofiem" src={logo} alt="logo" />
-          </Link>
+          </a>
         </li>
         <li className="hovssss">
-          <Link to="/">HOME</Link>
+          <a href="#">HOME</a>
         </li>
         <li className="hovssss">
-          <Link to="/about">ABOUT US</Link>
+          <a href="#">ABOUT US</a>
         </li>
         <li className="hovssss">
-          <Link to="/process">PROCESS</Link>
+          <a href="#">PROCESS</a>
         </li>
         {/* <li className="hovssss">
-          <Link to="/team">TEAM</Link>
+          <a href="#">TEAM</a>
         </li> */}
         <li className="hovssss">
-          <Link to="/product">PRODUCT</Link>
+          <a href="#">PRODUCT</a>
         </li>
         <li className="hovssss">
-          <Link to="/contact">CONTACT</Link>
+          <a href="#">CONTACT</a>
         </li>
       </ul>
     </nav>
