@@ -1,0 +1,106 @@
+@font-face {
+    font-family: paint;
+    src: url(../../../public/fonts/Painting_With_Chocolate.ttf);
+}
+
+.about-container {
+    --u: 1.52vmin;
+    --c1: #888888;
+    --c2: #6b6b6b;
+    --c3: #4e4e4e;
+    --c4: #464646;
+    --c5: #393939;
+    --gp: 50%/calc(var(--u) * 10) calc(var(--u) * 17.5);
+    --bp: calc(var(--u) * -5) calc(var(--u) * -8.75);
+    --bg: conic-gradient(from 120deg at 74.5% 91.75%, var(--c2) 0 120deg, #fff0 0 360deg) var(--gp),
+        conic-gradient(from 120deg at 25.5% 91.75%, var(--c1) 0 120deg, #fff0 0 360deg) var(--gp),
+        conic-gradient(from 60deg at 74.5% 75%, var(--c3) 0 120deg, #fff0 0 360deg) var(--gp),
+        conic-gradient(from 180deg at 25.5% 75%, var(--c2) 0 120deg, #fff0 0 360deg) var(--gp),
+        conic-gradient(from 120deg at 50% 67%, var(--c5) 0 120deg, #fff0 0 360deg) var(--gp),
+        conic-gradient(from 90deg at 50% 50%, var(--c1) 0 30deg, var(--c4) 0 90deg, var(--c3) 0 150deg, var(--c2) 0 180deg, #fff0 0 360deg) var(--gp);
+    background: var(--bg), var(--bg), var(--c1);
+    background-position: var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: auto;
+    align-items: center;
+}
+
+.about-image-container {
+    display: flex;
+    align-items: center;
+    backdrop-filter: brightness(.3);
+}
+
+.about-image {
+    width: 36%;
+    border: double;
+    border-radius: 90px;
+    height: auto;
+}
+
+
+.about-h2 {
+    font-family: paint;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-content-container {
+    backdrop-filter: brightness(.3);
+}
+
+.about-content {
+    font-size: 18px;
+}
+.about_firrig {
+    border-style: double;
+    background: white;
+    color: black;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 29px;
+}
+.about-namestory {
+    border-style: double;
+    background: white;
+    color: black;
+    padding: 30px;
+    margin: 60px 30px 0px 30px;
+    border-radius: 29px;
+}
+.about_firminfo {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.about_firminfo .about_firminfo-info {
+    border: 3px double white;
+    display: flex;
+    border-radius: 100px;
+    background: #d90e0e;
+    font-size: 18px;
+    padding: 30px;
+    margin: 20px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+img.pngimage {
+    display: block;
+    /* height: 21%; */
+    width: 23%;
+    /* filter: invert(1); */
+}

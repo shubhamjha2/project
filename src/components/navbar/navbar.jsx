@@ -1,37 +1,36 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import logo from "./firmking-low-resolution-logo-black-on-transparent-background.png";
 
 export default function Navbar() {
   return (
-    <>
-      <nav className="navigation">
-        <ul className="navbar">
-          <li className="LOGOFLX">
-            <a href="#">
-              <img className="logofiem" src={logo} alt="logo" />
-            </a>
-          </li>
-          <li className="hovssss">
-            <a href="#">HOME</a>
-          </li>
-          <li className="hovssss">
-            <a href="#">ABOUT US</a>
-          </li>
-          <li className="hovssss">
-            <a href="#">QUALITY</a>
-          </li>
-          <li className="hovssss">
-            <a href="#">TEAM</a>
-          </li>
-          <li className="hovssss">
-            <a href="#">CONTRACT</a>
-          </li>
-          <li className="hovssss">
-            <a href="#">PRODUCT</a>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <nav className="navigation">
+      <ul className="navbar">
+        <li className="LOGOFLX">
+          <Link to="/">
+            <img className="logofiem" src={logo} alt="logo" />
+          </Link>
+        </li>
+        <li className="hovssss">
+          <Link to="/">HOME</Link>
+        </li>
+        <li className="hovssss">
+          <Link to="/about">ABOUT US</Link>
+        </li>
+        <li className="hovssss">
+          <Link to="/process">PROCESS</Link>
+        </li>
+        {/* <li className="hovssss">
+          <Link to="/team">TEAM</Link>
+        </li> */}
+        <li className="hovssss">
+          <Link to="/product">PRODUCT</Link>
+        </li>
+        <li className="hovssss">
+          <Link to="/contact">CONTACT</Link>
+        </li>
+      </ul>
+    </nav>
   );
 }
