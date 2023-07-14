@@ -35,8 +35,8 @@ export default function Footer() {
           <a href="mailto:jha.shubham.9350@gmail.com">
             jha.shubham.9350@gmail.com
           </a>
+          <p>+91 9350923096</p>
         </p>
-        <p>+91 9350923096</p>
       </div>
     </footer>
   );
@@ -45,7 +45,7 @@ export default function Footer() {
 export function Copyright() {
   return (
     <p className="copyright">
-      &copy; 2023 Firmking Food Products Pvt. Ltd. All Rights Reserved.
+      &copy; 2023 Firmking Pvt. Ltd. All Rights Reserved.
     </p>
   );
 }

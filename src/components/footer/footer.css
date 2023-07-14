@@ -3,12 +3,12 @@
 .footer {
     display: flex;
     height: 235px;
-    border-top: 2px solid #ded5d5;
-    border-bottom: double;
-    border-top: double;
+    border-top: 2px solid #ffffff;
+    border-bottom: 1px solid white;
+    border-top: double white;
     justify-content: space-between;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: black;
     padding: 27px 34px 34px 11px;
 }
 .footer-left {
@@ -19,6 +19,8 @@
 
 .footer-logo {
     width: 60%;
+    filter: invert(1);
+
 }
 
 .social-icons {
@@ -47,20 +49,13 @@
 .footer-right {
     text-align: left;
     padding: 15px 10px 13px 18px;
-}
-
-.footer-right h3 {
-    margin-bottom: 10px;
-    animation: slide-up 0.5s ease-in-out;
-}
-
-.footer-right p {
-    margin-bottom: 5px;
-    animation: slide-up 0.5s ease-in-out;
+    color: white;
+    font-size: 20px;
+    padding: 39px;
 }
 
 .footer-right a {
-    color: #555;
+    color:white;
     text-decoration: none;
 }
 
@@ -106,30 +101,19 @@
     transition: transform 0.3s;
 }
 
-@keyframes slide-up {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .vertical-line {
     width: 6px;
     height: 180px;
-    background-color: #290808;
+    background-color: #d3d3d3;
     border-radius: 10px;
 }
 p.copyright {
-    background: #f2f2f2;
+    background: black;
+    color: white;
     margin: 0px;
     font-size: 20px;
     margin-top: 0px;
-    border-bottom: double;
+    border-bottom: double ;
     text-align: center;
     height: 36px;
 }
