@@ -24,9 +24,9 @@ export default function Footer() {
       </div>
       <div className="vertical-line"></div>
       <div className="footer-right">
-        <h2>Contact</h2>
+        {/* <h2>Contact</h2> */}
         <p>
-          <strong>Firmking Food Products Pvt. Ltd.</strong> <br />
+          <strong>Firmking Pvt. Ltd.</strong> <br />
           Survey No. 65/P2, Rajkot-Gondal, NH 27, B/h Bharat Petrolium, At
           Shemla, Ta. Gondal, Rajkot - 360 311, Delhi, India
         </p>

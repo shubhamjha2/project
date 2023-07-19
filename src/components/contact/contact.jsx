@@ -6,31 +6,31 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <div className="blur-background"></div>{" "}
-      <form className="contact-form">
+      <form className="contact-form" action="https://formsubmit.co/eb5cd43f1c65330ee85e50be8b078e0e " method="POST">
         <h2 className="heading">Get In Touch</h2>
         <div className="form-group">
           <label htmlFor="name" className="label">
             Name:
           </label>
-          <input type="text" id="name" name="name" className="input" />
+          <input type="text" id="name" placeholder="Full name" name="Name" className="input" required />
         </div>
         <div className="form-group">
           <label htmlFor="email" className="label">
             Email:
           </label>
-          <input type="email" id="email" name="email" className="input" />
+          <input type="email" id="email" placeholder="Mail" name="E-mail" className="input" required />
         </div>
         <div className="form-group">
           <label htmlFor="phone" className="label">
             Phone:
           </label>
-          <input type="tel" id="phone" name="phone" className="input" />
+          <input type="tel" id="phone" placeholder="Phone no." name="Phone" className="input" required/>
         </div>
         <div className="form-group">
           <label htmlFor="message" className="label">
             Message:
           </label>
-          <textarea id="message" name="message" className="textarea"></textarea>
+          <textarea id="message" name="Message" placeholder="Message" className="textarea"></textarea>
         </div>
         <button type="submit" className="button">
           Send

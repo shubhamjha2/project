@@ -37,8 +37,6 @@ export default function Process() {
               Pvt. Ltd.
             </p>
           </div>
-        </div>
-        <div className="containerflexing">
           <div className="container">
             <h2 className="section-title">Energy Efficiency</h2>
             <p className="section-description">

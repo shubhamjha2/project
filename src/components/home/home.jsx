@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./home.css";
+
 const logos = [
   "https://i.postimg.cc/0jrd16v0/logo1-1.png",
   "https://i.postimg.cc/JhJ2S2xz/logo2.png",
@@ -61,7 +62,7 @@ export default function Home() {
         <div className="firminfo">
           <div className="left-section">
             <img
-              src="https://i.postimg.cc/1RMTCJqD/Pik-Png-com-ramen-noodles-png-654531-11zon.png"
+              src="https://i.postimg.cc/8cDBMntz/prefabricated-warehouse-structure-1000x1000.jpg"
               alt="Cryogenic Plant Image"
             />
           </div>
@@ -80,46 +81,36 @@ export default function Home() {
                 noodle-making technology.
               </p>
 
-              <h3>FIRMKING PVT. LTD.</h3>
+              <h3 className="firmpvtltd">FIRMKING PVT. LTD.</h3>
               <div className="align_center-button">
-                <a href="#">READ MORE</a>
+                <a href="/about">READ MORE</a>
               </div>
             </div>
           </div>
         </div>
         <div className="firminfo">
           <div className="firminfo-info">
-            <p>
-              We have the best laid out Cryogenic plant in India. This is The
-              GLOBAL NEXT Generation grinding technology under super cool
-              environment. This ensures that nutrients and the essential oils in
-              the spices are retained. Thus, the goodness, aroma, and texture of
-              the products are perfectly maintained.
-            </p>
+            <h3 className="pinfohead">2000+ BOXES PER DAY </h3>
 
-            <h3>FARMKING FOOD PRODUCTS PVT. LTD.</h3>
+            <p className="jhajhsj">
+              Our daily production is over 2000 packages per day including
+              Boxes, Pouches, Containers and Non-Woven Bags.
+            </p>
           </div>
           <div className="firminfo-info">
-            <p>
-              We have the best laid out Cryogenic plant in India. This is The
-              GLOBAL NEXT Generation grinding technology under super cool
-              environment. This ensures that nutrients and the essential oils in
-              the spices are retained. Thus, the goodness, aroma, and texture of
-              the products are perfectly maintained.
-            </p>
+            <h3 className="pinfohead">SALE IN 15+ STATES</h3>
 
-            <h3>FARMKING FOOD PRODUCTS PVT. LTD.</h3>
+            <p className="jhajhsj">
+              Firmking has been successfully exporting its products in all the
+              ranges among 15 different states.
+            </p>
           </div>
           <div className="firminfo-info">
-            <p>
-              We have the best laid out Cryogenic plant in India. This is The
-              GLOBAL NEXT Generation grinding technology under super cool
-              environment. This ensures that nutrients and the essential oils in
-              the spices are retained. Thus, the goodness, aroma, and texture of
-              the products are perfectly maintained.
+            <h3 className="pinfohead">10+ PRODUCT RANGE</h3>
+            <p className="jhajhsj">
+              Firmking has more than 10+ different types of products including
+              Basic , Blended , Whole and Wheat.
             </p>
-
-            <h3>FARMKING FOOD PRODUCTS PVT. LTD.</h3>
           </div>
         </div>
         <div className="certificate">

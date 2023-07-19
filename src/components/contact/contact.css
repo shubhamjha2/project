@@ -1,17 +1,18 @@
-
-
 .contact-container {
-  position: relative; /* Set position relative to contain the blurred background */
+  position: relative;
   display: flex;
+  padding: 150px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: auto;
 }
 .button {
-  background-color: #27d82f;
-  color: #000;
+  background-color: #101010;
+  color: #ffffff;
   border: none;
+  height: auto;
+  width: 150px;
   padding: 10px 20px;
   border: 1px solid #5c5c5c;
   font-size: 16px;
@@ -38,21 +39,29 @@
   filter: blur(8px) brightness(.3);
   backdrop-filter: brightness(0.3);
 }
+
 .heading {
-  font-size: 35px;
-  color: #333;
+  font-weight: 100;
+  font-size: 45px;
+  font-family: 'paint';
+  color: #ffffff;
   margin-bottom: 40px;
   border-bottom: 2px solid;
   margin-top: 0;
+  font-style: italic;
 }
 
 .contact-form {
-  background-color: #ffeda8;
-  padding: 2%;
+  display: flex;
+  background-color: #d90e0e;
   border-radius: 25px;
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(2px 4px 6px rgb(216, 216, 216));
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 40%;
+  width: 37vw;
+  padding: 44px;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .form-group {
@@ -61,46 +70,49 @@
 
 .label {
   font-weight: bold;
-  color: #666;
+  color: #fffcfc;
   display: block;
   margin-bottom: 5px;
 }
 
-.input {
-  width: 97%;
-  background: #fff5d0;
+.input, .textarea {
+  width: 96%;
+  font-size: 20px;
   padding: 10px;
   border: 1px solid #ddd;
+  font-family: cursive;
   border-radius: 4px;
+  background: #ffffff;
   color: #333;
   transition: border-color 0.3s ease;
 }
 
-.input:focus {
+.input:focus,
+.textarea:focus {
   outline: none;
-  border-color: #4caf50;
+  border-color: #303030;
 }
 
 .textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background: #fff5d0;
-  color: #333;
-  transition: border-color 0.3s ease;
   resize: vertical;
 }
 
-.textarea:focus {
-  outline: none;
-  border-color: #4caf50;
-}
-
 .button:hover {
-  background-color: #45a049;
+  background-color: #303030;
 }
 
+/* Responsive Styling */
 
-
-
+@media (max-width: 1024px) {
+ 
+  .contact-container {
+    position: relative;
+    display: flex;
+    margin-top: 77px;
+    padding: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+}

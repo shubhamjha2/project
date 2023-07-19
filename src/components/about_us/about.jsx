@@ -50,7 +50,7 @@ export default function About() {
               className="pngimage"
             />
 
-            <h3>Our Vision</h3>
+            <h3 className="logoblew">Our Vision</h3>
             <p>
               We have the best laid out Cryogenic plant in India. This is The
               GLOBAL NEXT Generation grinding technology under super cool
@@ -66,7 +66,7 @@ export default function About() {
               className="pngimage"
             />
 
-            <h3>Our Mission</h3>
+            <h3 className="logoblew">Our Mission</h3>
             <p>
               We have the best laid out Cryogenic plant in India. This is The
               GLOBAL NEXT Generation grinding technology under super cool
@@ -82,7 +82,7 @@ export default function About() {
               className="pngimage"
             />
 
-            <h3>Our Core Strength</h3>
+            <h3 className="logoblew">Our Core Strength</h3>
             <p>
               We have the best laid out Cryogenic plant in India. This is The
               GLOBAL NEXT Generation grinding technology under super cool

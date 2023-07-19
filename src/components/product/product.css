@@ -1,31 +1,29 @@
 .bg_prduct_uu {
-  --u: 1.52vmin;
   --c1: #888888;
   --c2: #6b6b6b;
   --c3: #4e4e4e;
   --c4: #464646;
   --c5: #393939;
-  --gp: 50%/calc(var(--u) * 10) calc(var(--u) * 17.5);
-  --bp: calc(var(--u) * -5) calc(var(--u) * -8.75);
+  --gp: 50%/calc(1.52vmin * 10) calc(1.52vmin * 17.5);
+  --bp: calc(1.52vmin * -5) calc(1.52vmin * -8.75);
   --bg: conic-gradient(from 120deg at 74.5% 91.75%, var(--c2) 0 120deg, #fff0 0 360deg) var(--gp), conic-gradient(from 120deg at 25.5% 91.75%, var(--c1) 0 120deg, #fff0 0 360deg) var(--gp), conic-gradient(from 60deg at 74.5% 75%, var(--c3) 0 120deg, #fff0 0 360deg) var(--gp), conic-gradient(from 180deg at 25.5% 75%, var(--c2) 0 120deg, #fff0 0 360deg) var(--gp), conic-gradient(from 120deg at 50% 67%, var(--c5) 0 120deg, #fff0 0 360deg) var(--gp), conic-gradient(from 90deg at 50% 50%, var(--c1) 0 30deg, var(--c4) 0 90deg, var(--c3) 0 150deg, var(--c2) 0 180deg, #fff0 0 360deg) var(--gp);
   background: var(--bg), var(--bg), var(--c1);
   background-position: var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
 }
 
 .product_bg_page {
+  -webkit-backdrop-filter: blur(8px) brightness(0.3);
   backdrop-filter: blur(8px) brightness(0.3);
-
-  display: flex;
-  flex-wrap: wrap;
-  padding: 40px 0px;
-  justify-content: space-between;
-  align-items: flex-start;
-  /* Change 'center' to 'flex-start' */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 60px;
+  justify-items: center;
+  padding: 40px;
 }
 
 .card {
-  width: 190px;
-  height: 100%;
+  width: 100%;
+  height: 75%;
   padding: 0.8em;
   background: #f5f5f5;
   position: relative;
@@ -33,8 +31,6 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
-  /* Add margin-bottom to create spacing between cards */
 }
 
 .card-img {
@@ -47,7 +43,6 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* Add overflow: hidden to prevent image overflow */
 }
 
 .card-img img {
@@ -105,73 +100,38 @@
 
 /* Responsive Styling */
 
-@media (max-width: 768px) {
-  .card {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  .card {
-    max-width: 300px;
-    margin: 10px;
-  }
-}
-
-@media (min-width: 992px) {
-  .card {
-    max-width: 250px;
-    margin: 10px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card {
-    max-width: 250px;
-    margin: 10px;
-  }
-}
-
-.product_bg_page {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  justify-items: center;
-}
-
-.card {
-  width: 100%;
-  height: 75%;
-  padding: 0.8em;
-  background: #f5f5f5;
-  position: relative;
-  overflow: visible;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  display: flex;
-  flex-direction: column;
-}
-
-/* Rest of the CSS code remains the same */
-
-/* Responsive Styling */
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .product_bg_page {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 77px;
+    padding: 50px;
+    gap: 60px;
+  }
+
+  .text-title {
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 1.5;
+  }
+
+  .text-body {
+    font-size: 1.9em;
+    padding-bottom: 10px;
   }
 
   .card {
     max-width: 100%;
+    height: 95%;
   }
 }
 
+/* 
 @media (min-width: 768px) {
   .product_bg_page {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
   }
+
 }
 
 @media (min-width: 992px) {
@@ -182,6 +142,10 @@
 
 @media (min-width: 1200px) {
   .product_bg_page {
+    .bg_prduct_uu {
+      margin-top: 0px;
+    }
+
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
-}
+} */
