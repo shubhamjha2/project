@@ -6,10 +6,14 @@ export default function About() {
     <div className="about-container">
       <div className="about-image-container">
         <img
-          src="https://i.postimg.cc/8cDBMntz/prefabricated-warehouse-structure-1000x1000.jpg"
-          alt="Image"
+          src={
+            process.env.PUBLIC_URL +
+            "/images/prefabricated-warehouse-structure-1000x1000.jpg"
+          }
+          alt="Prefabricated warehouse structure"
           className="about-image"
         />
+
         <div className="about_firrig">
           <h2 className="about-h2">Story Of Farmking</h2>
           <p className="about-p">
@@ -45,8 +49,11 @@ export default function About() {
         <div className="about_firminfo">
           <div className="about_firminfo-info">
             <img
-              src="https://i.postimg.cc/TwKmMHjk/pngfind-com-mission-images-png-2095932-min.png "
-              alt="Image"
+              src={
+                process.env.PUBLIC_URL +
+                "/images/about_us-img/pngfind-com-mission-images-png-2095932-min.png"
+              }
+              alt="Image_123"
               className="pngimage"
             />
 
@@ -61,8 +68,11 @@ export default function About() {
           </div>
           <div className="about_firminfo-info">
             <img
-              src="https://i.postimg.cc/VNGMhctr/pngfind-com-dart-board-png-5875061-min.png"
-              alt="Image"
+              src={
+                process.env.PUBLIC_URL +
+                "/images/about_us-img/pngfind-com-dart-board-png-5875061-min.png"
+              }
+              alt="Image_sh"
               className="pngimage"
             />
 
@@ -77,8 +87,11 @@ export default function About() {
           </div>
           <div className="about_firminfo-info">
             <img
-              src="https://i.postimg.cc/3wJm9wkQ/growth-2694736.png"
-              alt="Image"
+              src={
+                process.env.PUBLIC_URL +
+                "/images/about_us-img/growth-2694736.png"
+              }
+              alt="Image_jsk"
               className="pngimage"
             />
 

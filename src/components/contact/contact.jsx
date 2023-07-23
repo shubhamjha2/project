@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <div className="blur-background"></div>{" "}
-      <form className="contact-form" action="https://formsubmit.co/eb5cd43f1c65330ee85e50be8b078e0e " method="POST">
+      <form className="contact-form" >
         <h2 className="heading">Get In Touch</h2>
         <div className="form-group">
           <label htmlFor="name" className="label">

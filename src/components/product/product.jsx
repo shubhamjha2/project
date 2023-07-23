@@ -6,95 +6,99 @@ export default function Product() {
     const cardData = [
       {
         id: 1,
-        imageSrc: "https://i.postimg.cc/NMw1GNTq/pngegg-10-1.png",
+        imageSrc:
+          process.env.PUBLIC_URL + "/images/product-img/pngegg-10-1.png",
         title: "Product title 1",
         description: "Product description and details 1",
         price: "$499.49",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+        process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
         id: 2,
-        imageSrc: "https://i.postimg.cc/wMwJVgrg/pngegg-5-1.png",
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-5-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
         id: 3,
-        imageSrc: "https://i.postimg.cc/jSmHmqSj/pngegg-6-1.png",
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-9-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
         id: 4,
-        imageSrc: "https://i.postimg.cc/SRSCCJDg/pngegg-7-1.png",
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-7-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
         id: 5,
-        imageSrc:
-          "https://i.postimg.cc/1RMTCJqD/Pik-Png-com-ramen-noodles-png-654531-11zon.png",
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-6-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
         id: 6,
-        imageSrc: "https://i.postimg.cc/XJc9rwcZ/pngegg-9-1.png",
+        imageSrc:
+          process.env.PUBLIC_URL +
+          "/images/product-img/Pik-Png-com-ramen-noodles-png-654531-11zon.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
-        id: 1,
-        imageSrc: "https://i.postimg.cc/NMw1GNTq/pngegg-10-1.png",
+        id: 7,
+        imageSrc:
+          process.env.PUBLIC_URL + "/images/product-img/pngegg-10-1.png",
         title: "Product title 1",
         description: "Product description and details 1",
         price: "$499.49",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
-        id: 2,
-        imageSrc: "https://i.postimg.cc/wMwJVgrg/pngegg-5-1.png",
+        id: 8,
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-5-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
-        id: 3,
-        imageSrc: "https://i.postimg.cc/jSmHmqSj/pngegg-6-1.png",
+        id: 9,
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-9-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
       },
       {
-        id: 4,
-        imageSrc: "https://i.postimg.cc/SRSCCJDg/pngegg-7-1.png",
+        id: 10,
+        imageSrc: process.env.PUBLIC_URL + "/images/product-img/pngegg-7-1.png",
         title: "Product title 2",
         description: "Product description and details 2",
         price: "$399.99",
         cartIconSrc:
-          "https://i.postimg.cc/zBVyT6hR/shopping-cart-of-checkered-design.png",
-      }
+          process.env.PUBLIC_URL + "/images/product-img/shopping-cart-of-checkered-design.png",
+      },
+
       // Add more card data objects as needed
     ];
 
