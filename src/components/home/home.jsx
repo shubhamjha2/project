@@ -7,7 +7,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % 2);
-    }, 7000); // Set the interval to 5 seconds (5000 milliseconds)
+    }, 5000); 
 
     return () => clearInterval(interval);
   }, []);

@@ -105,7 +105,7 @@ export default function Product() {
     return cardData.map((card) => (
       <div className="card" key={card.id}>
         <div className="card-img">
-          <img src={card.imageSrc} alt={`Image ${card.id}`} />
+          <img src={card.imageSrc} alt={`Image2 ${card.id}`} />
         </div>
         <div className="card-info">
           <p className="text-title">{card.title}</p>

@@ -8,16 +8,16 @@ export default function Footer() {
       <div className="footer-left">
         <img className="footer-logo" src={logo} alt="logo" />
         <div className="social-icons">
-          <a href="#" className="social-icon">
+          <a href="/about" className="social-icon">
             <span className="instagram-icon"></span>
           </a>
-          <a href="#" className="social-icon">
+          <a href="/home" className="social-icon">
             <span className="yt-icon"></span>
           </a>
-          <a href="#" className="social-icon">
+          <a href="/process" className="social-icon">
             <span className="linkedin-icon"></span>
           </a>
-          <a href="#" className="social-icon">
+          <a href="/about" className="social-icon">
             <span className="watsapp-icon"></span>
           </a>
         </div>
