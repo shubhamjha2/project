@@ -56,8 +56,8 @@
 .overlay_image {
   animation: puff-in-center 1s ease-in both;
   position: absolute;
-  bottom: 137px;
-  left: 299px;
+  bottom: 106px;
+  left: 236px;
   width: 30%;
   height: 54%;
   z-index: 1;
@@ -113,7 +113,7 @@
   left: 77%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 150px;
+  font-size: 115px;
   text-transform: uppercase;
   line-height: 0.9;
   font-family: paint;
@@ -301,7 +301,6 @@ img.overlay_image_slide1_2 {
   height: 36%;
   z-index: 1;
 }
-
 h1.overlay_text_slide1 {
   animation: text-flicker-in-glow 3s linear both;
   position: absolute;
@@ -310,13 +309,13 @@ h1.overlay_text_slide1 {
   border-radius: 47px;
   border: 5px double;
   height: 20%;
-  padding: 89px;
+  padding: 67px;
   top: 22%;
   /* background: #d90e0e; */
   left: 71%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 107px;
+  font-size: 79px;
   text-transform: uppercase;
   line-height: 1.1;
   font-family: paint;
@@ -344,7 +343,7 @@ img.overlay_image_slide1_3 {
   left: 71%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 72px;
+  font-size: 50px;
   font-family: paint;
   font-style: italic;
   z-index: 2;
@@ -462,7 +461,7 @@ img.overlay_image_slide1_3 {
   .home_root {
     position: relative;
     width: 100%;
-    height: 21vh;
+    height: 441px;
   }
 
   .firminfo .firminfo-info a {
